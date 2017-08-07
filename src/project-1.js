@@ -3,35 +3,53 @@
 const multiplyByTen = (num) => {
   // return num after multiplying it by ten
   // code here
+  return num * 10;
 };
 
 const subtractFive = (num) => {
   // return num after subtracting five
   // code here
+  return num - 5;
 };
 
 const areSameLength = (str1, str2) => {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  if (str1.length === str.length) {
+    return true;
+  }
+  return false;
 };
 
 const areEqual = (x, y) => {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if (x === y){
+    return true;
+  }
+  return false; 
 };
 
 const lessThanNinety = (num) => {
   // return true if num is less than ninety
   // otherwise return false
   // code here
+  if (num < 90){
+    return true;
+  }
+  return false;
 };
 
 const greaterThanFifty = (num) => {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  if (num > 50) {
+    return true;
+  }
+  return false; 
 };
 
 const add = (x, y) => {
